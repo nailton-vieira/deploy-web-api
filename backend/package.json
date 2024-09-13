@@ -4,8 +4,8 @@
   "description": "Projeto base Backend",
   "main": "index.js",
   "scripts": {
-    "dev": " src/index.ts",
-     "test": "echo \"Error: no test specified\" && exit 1"
+    "start": " ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nailton Vieira",
   "license": "ISC",

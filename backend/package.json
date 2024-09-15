@@ -4,14 +4,16 @@
   "description": "Projeto base Backend",
   "main": "index.js",
   "scripts": {
-    "start": " ts-node src/index.ts",
+    "dev": " ts-node src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nailton Vieira",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "^5.19.1",
     "dotenv": "^16.4.5",
-    "express": "^4.21.0"
+    "express": "^4.21.0",
+    "express-async-errors": "^3.1.1"
   },
   "devDependencies": {
     "@types/express": "^4.17.21",
